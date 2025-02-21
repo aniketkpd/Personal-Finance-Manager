@@ -1,6 +1,15 @@
 streamlit
-sqlite3
 pandas
+numpy
 plotly
-unittest
+fpdf
+sqlite3
+matplotlib
+networkx
+requests
 hashlib
+os
+sys
+time
+datetime
+shutil
