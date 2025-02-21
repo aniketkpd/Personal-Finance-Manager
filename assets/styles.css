@@ -1,0 +1,48 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Sidebar Styling */
+.sidebar .sidebar-content {
+    background-color: #2e3b4e !important;
+}
+
+/* Custom Button Styling */
+.stButton>button {
+    background-color: #ff4b4b;
+    color: white;
+    font-size: 16px;
+    border-radius: 8px;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.stButton>button:hover {
+    background-color: #ff1a1a;
+}
+
+/* DataFrame Styling */
+.stDataFrame {
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+/* Fix metric text visibility */
+.stMetric {
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+    color: black !important;  /* Ensure the text is visible */
+}
+
+/* Explicitly set the color of metric labels and values */
+[data-testid="stMetric"] div {
+    color: black !important;  /* Ensures text inside metric box is visible */
+}
